@@ -46,9 +46,9 @@ except URLError as e:
 #####streamlit.write('The user entered ', fruit_choice)
 
 # takes the json and refomats it into a nromalzied version
-fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
+#####fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # inorder to create a dataframe for viewing
-streamlit.dataframe(fruityvice_normalized)
+####streamlit.dataframe(fruityvice_normalized)
 
 streamlit.stop()
 
